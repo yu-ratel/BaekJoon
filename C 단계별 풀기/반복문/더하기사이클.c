@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int N = 0;
+  int N ;
+  scanf("%d", &N);
   int result = N;
   int sum = 0;
   int frontNumber = -1;
@@ -21,5 +22,3 @@ int main() {
   printf("%d", sum);
 
 }
-
-// / 앞 % 뒤 
